@@ -2,7 +2,7 @@
 echo "Enter the name of an Indian state:"
 read -r state
 state=$(echo "$state" | tr '[:upper:]' '[:lower:]')
-echo $state;; 
+echo $state
 case $state in
   "andhra pradesh")
     echo "Main Language: Telugu"
@@ -21,7 +21,7 @@ case $state in
     ;;
   "kerala" | "lakshadweep")
     echo "Main Language: Malayalam"
-    ;;./
+    
   "tamil nadu")
     echo "Main Language: Tamil"
     ;;
